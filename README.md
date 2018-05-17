@@ -20,6 +20,14 @@ For this three task, we have to use a Dataset called German Traffic Signs Datase
 I could only develop the first two models, both are functional, capable of infer new images. I obtained accuracies arround (75%-85%).
 For the challenge, we must create an app.py file containing all the code that could be accesed directly from the command prompt, the commands for the aplication are:
 
+
+#### download
+```
+python app.py download
+```
+
+This command will download the dataset (which is compressed in .zip and its about 1.6 Gb) and will save the classification images necesary to train the models, it will randomly split the dataset into train and test data with a ratio of 80-20.
+
 #### train:
 ```
 python app.py train -m [model] -d [directory]
