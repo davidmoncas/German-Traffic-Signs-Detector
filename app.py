@@ -1,10 +1,6 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # NAME OF THE PROYECT:  German-Traffic-Signs-Detector
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# PURPOSE OF THIS MODULE : 
-#     		
-#  
-#  
 # AUTHOR:   
 #           David Montoya Castaño
 # DATE:     
