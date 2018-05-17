@@ -38,4 +38,4 @@ python app.py infer -m [model] -d [directory]
 ```
 where [model] can be either **model1** or **model2** and [directory] should be **images/user**, this command should open windows with plots of the images in the folder as well as the predicted class and title by the specified model.
 
-![window with predictions](https://ibb.co/gHeSmJ)
+![window with predictions](https://preview.ibb.co/mQJyty/Sin_t_tulo.jpg)
