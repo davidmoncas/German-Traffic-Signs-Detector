@@ -5,7 +5,7 @@
 
 Kiwi Campus Inc, the biggest delivery company with robots in Sillicon Valley presented this challenge of robotics and machine learning. This repository is my solution to the challenge of Machine Learning.
 
-## Description of the challenge
+### Description of the challenge
 
 The machine learning challenge consist in create, train and test three image classification models: 
 
@@ -15,6 +15,19 @@ The machine learning challenge consist in create, train and test three image cla
 
 For this three task, we have to use a Dataset called German Traffic Signs Dataset ( http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset ) , downloading and preparing the data using code is also part of the challenge.
 
-## My solution
+### My solution
 
 I could only develop the first two models, both are functional, capable of infer new images. I obtained accuracies arround (75%-85%).
+For the challenge, we must create an app.py file containing all the code that could be accesed directly from the command prompt, the commands for the aplication are:
+
+#### train:
+```
+python app.py train -m [model] -d [directory]
+```
+where [model] can be either **model1** or **model2** and [directory] should be **images/train** , this command will train the specified model and will create a file inside ./models/[model]/saved/ containing the saved model for use it later.
+
+#### test
+```
+python app.py test -m [model] -d [directory]
+```
+where [model] can be either **model1** or **model2** and [directory] should be **images/test**, this command should return the accuracy of the model, in model1 also creates a report file with some metrics in the folder ./reports.
