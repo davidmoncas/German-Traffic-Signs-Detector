@@ -31,3 +31,11 @@ where [model] can be either **model1** or **model2** and [directory] should be *
 python app.py test -m [model] -d [directory]
 ```
 where [model] can be either **model1** or **model2** and [directory] should be **images/test**, this command should return the accuracy of the model, in model1 also creates a report file with some metrics in the folder ./reports.
+
+#### infer
+```
+python app.py infer -m [model] -d [directory]
+```
+where [model] can be either **model1** or **model2** and [directory] should be **images/user**, this command should open windows with plots of the images in the folder as well as the predicted class and title by the specified model.
+
+![window with predictions](https://ibb.co/gHeSmJ)
