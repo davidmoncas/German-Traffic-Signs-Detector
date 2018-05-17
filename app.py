@@ -549,9 +549,14 @@ def downl():
         NONE	    	images/train and images/test are now full of images from the dataset
  
 	"""
-	#create the folder to save the file
+	#create the folders to save the files
+	os.makedirs('images')
+	os.makedirs('images/train')
+	os.makedirs('images/test')
+	os.makedirs('images/user')
+
 	os.makedirs('images/download')
-	click.echo('folder created')
+	click.echo('folders created')
 	#download the data from the web
 	click.echo('downloading the file')
 	url='http://benchmark.ini.rub.de/Dataset_GTSDB/FullIJCNN2013.zip'
